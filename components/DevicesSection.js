@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
     container:{
         flex:1,
         flexDirection:'column',
-        alignItems:'center'
+        alignItems:'center',
     },
     title:{
         fontSize:24,

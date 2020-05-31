@@ -24,7 +24,7 @@ import Devices from './screens/Devices';
 
 const App = () => {
   return (
-    <AnalyticsScreen></AnalyticsScreen>
+    <Devices></Devices>
   );
 };
 

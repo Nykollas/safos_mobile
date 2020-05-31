@@ -4,7 +4,6 @@ import DevicesSection from '../components/DevicesSection';
 
 import UpIllustration from '../assets/icons/UpIllustration';
 
-
 class DeviceScreen extends Component {
     render = () => {
         return(
