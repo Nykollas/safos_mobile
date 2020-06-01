@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
+
 import { View, Text, TouchableOpacity, StyleSheet} from 'react-native';
+
+import pallete from '../assets/color/colors';
 
 class DeviceCard extends Component {
 
@@ -12,21 +15,35 @@ class DeviceCard extends Component {
         return(
             <TouchableOpacity>
                 <View style={styles.card}>
-                    <Text>{title}</Text>
-                    <Text>{location}</Text>
-                    <Text>{date}</Text>
+                    <Text style={styles.title}>{title}</Text>
+                    <Text style={styles.text}>{location}</Text>
+                    <Text style={styles.text}>{date}</Text>
                 </View>
             </TouchableOpacity>
         )
     }
 }
 
-
 const styles  = StyleSheet.create({
     card:{
-        height:72,
-        width:'75%',
+        height:160,
+        width:300,
         elevation:3,
+        alignItems:'flex-start',
+        paddingLeft:24,
+        justifyContent:'center',
+        marginBottom:24,
+        borderRadius:12
+        
+    },
+    title:{
+        fontSize:24,
+        color:pallete.font_color,
+        marginBottom:24
+    },
+    text:{
+        fontSize:18,
+        color:pallete.font_color
     }
 })
 

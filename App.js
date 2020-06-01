@@ -20,11 +20,15 @@ import Account from './screens/Account';
 import ConfigMachine from './screens/ConfigMachine';
 import AnalyticsScreen from './screens/Analytics';
 import Devices from './screens/Devices';
+import Help from './screens/Help';
+import HelpOpened from './screens/HelpOpened';
+import Suggestion from './screens/Suggestions';
+import Reports from './screens/Reports';
 
 
 const App = () => {
   return (
-    <Devices></Devices>
+    <Reports></Reports>
   );
 };
 
