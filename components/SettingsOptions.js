@@ -9,7 +9,7 @@ class SettingsOptions extends Component {
      return(
          <TouchableOpacity>
             <View style={styles.container}>
-                <PersonIcon></PersonIcon>
+                <PersonIcon height={36} width={32} fill={pallete.font_color}></PersonIcon>
             </View>
          </TouchableOpacity>
      )

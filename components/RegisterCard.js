@@ -16,9 +16,9 @@ class LoginCard extends Component {
             <View style={styles.card_container}>
                 <Text style={styles.title}>Almost there!</Text>
                 <Input placeholder={"Email"}/>
-                <Input placeholder={"Senha"}/>
-                <Input placeholder={"Senha"}/>
-                <Button label={'Register'} height={56} width={160} ></Button>
+                <Input placeholder={"Password"}/>
+                <Input placeholder={"Password Confirmation"}/>
+                <Button label={'Sign up'} height={56} width={160} ></Button>
                 <SettingsOption></SettingsOption>
             </View>
         )

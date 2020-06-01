@@ -24,6 +24,7 @@ import Help from './screens/Help';
 import HelpOpened from './screens/HelpOpened';
 import Suggestion from './screens/Suggestions';
 import Reports from './screens/Reports';
+import AnalyticsSection from './components/AnalyticsSection';
 
 
 const App = () => {
